@@ -2,7 +2,6 @@ import { useState, useRef } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { Play, X } from 'lucide-react'
 import fashionVideo from '../assets/video/Fashion&Clothing.mp4'
-import realEstateVideo from '../assets/video/real-estate.mp4'
 import appleVideo from '../assets/video/Animated-Apple.mp4'
 import day2MotionVideo from '../assets/video/Day2Motion_Animation.mp4'
 import iphoneVideo from '../assets/video/Iphone_Animateion.mp4'
@@ -12,16 +11,9 @@ import spotifyVideo from '../assets/video/spotify.mp4'
 const categories = ['All', 'Commercial', 'Reels', 'Animation']
 
 const projects = [
+
   {
     id: 1,
-    title: 'Real Estate Cinematic Tour',
-    category: 'Commercial',
-    color: 'from-blue-900/80 to-dark-900',
-    desc: 'Immersive cinematic property tour with professional color grading and smooth transitions.',
-    videoSrc: realEstateVideo,
-  },
-  {
-    id: 2,
     title: 'Fashion & Clothing Promo',
     category: 'Reels',
     color: 'from-pink-900/80 to-dark-900',

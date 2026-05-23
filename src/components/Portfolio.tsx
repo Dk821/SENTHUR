@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { Play, X } from 'lucide-react'
 import fashionVideo from '../assets/video/Fashion&Clothing.mp4'
-import realEstateVideo from '../assets/video/Real estate.mp4'
+import realEstateVideo from '../assets/video/Real_estate.mp4'
 import appleVideo from '../assets/video/Animated-Apple.mp4'
 import day2MotionVideo from '../assets/video/Day2Motion_Animation.mp4'
 import iphoneVideo from '../assets/video/Iphone_Animateion.mp4'
@@ -14,7 +14,7 @@ const categories = ['All', 'Commercial', 'Reels', 'Animation']
 const projects = [
   {
     id: 1,
-    title: 'Real_Estate Cinematic Tour',
+    title: 'Real Estate Cinematic Tour',
     category: 'Commercial',
     color: 'from-blue-900/80 to-dark-900',
     desc: 'Immersive cinematic property tour with professional color grading and smooth transitions.',
@@ -109,8 +109,8 @@ export default function Portfolio() {
               key={cat}
               onClick={() => setActiveCategory(cat)}
               className={`px-5 sm:px-6 py-2.5 text-xs sm:text-sm font-medium rounded-full tracking-wider uppercase transition-all duration-300 ${activeCategory === cat
-                  ? 'bg-accent-purple text-white shadow-[0_0_20px_rgba(168,85,247,0.4)]'
-                  : 'bg-white/5 text-gray-400 border border-white/10 hover:border-accent-purple/30 hover:text-white hover:bg-white/10'
+                ? 'bg-accent-purple text-white shadow-[0_0_20px_rgba(168,85,247,0.4)]'
+                : 'bg-white/5 text-gray-400 border border-white/10 hover:border-accent-purple/30 hover:text-white hover:bg-white/10'
                 }`}
             >
               {cat}

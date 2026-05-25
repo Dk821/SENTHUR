@@ -631,7 +631,10 @@ select {
   }
 
   .btn {
-    width: 100%;
+    width: 50%;
+  }
+   .navhire {
+    width: 30%;
   }
 }
 

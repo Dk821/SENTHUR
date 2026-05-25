@@ -130,7 +130,7 @@ export default function Navbar() {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="hidden md:flex btn btn-primary flex-shrink-0 whitespace-nowrap !py-2.5 !px-7 !text-[0.75rem]"
+              className="hidden navhire md:flex btn btn-primary flex-shrink-0 whitespace-nowrap !py-2.5 !px-7 !text-[0.75rem]"
             >
               Hire Me
             </motion.a>
@@ -138,7 +138,7 @@ export default function Navbar() {
             {/* Mobile Button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden relative z-[60] text-white"
+              className="md:hidden relative text-white"
               aria-label="Toggle Navigation"
             >
               <AnimatePresence mode="wait">
@@ -177,7 +177,7 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-black/90 backdrop-blur-2xl md:hidden"
+            className="fixed inset-0 z-50 bg-black/90 backdrop-blur-2xl md:hidden"
           >
             <div className="flex flex-col items-center justify-center h-full gap-10">
               {navLinks.map((link, index) => (
@@ -217,7 +217,7 @@ export default function Navbar() {
                 whileTap={{
                   scale: 0.96,
                 }}
-                className="mt-6 px-8 p-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-2xl"
+                className="mt-6 inline-flex w-full max-w-xs items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-3 text-sm font-semibold text-white shadow-2xl"
               >
                 Hire Me
               </motion.a>

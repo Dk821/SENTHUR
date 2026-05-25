@@ -127,7 +127,7 @@ export default function Hero() {
 
           <motion.div
             variants={fadeUp}
-            className="mt-8 md:mt-10 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4"
+            className="mt-8 md:mt-10 flex sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4"
           >
             <motion.a
               href="#portfolio"
